@@ -1,34 +1,29 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# NextJS + TypeScript + Recoil + ReactQuery
 
-## Getting Started
+## Coding Conventions
 
-First, run the development server:
+### Page File Conventions
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+- The file name depends on the project.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Components File Conventions
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+- The file name is ```PascalCase```.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+### Non-components File Conventions
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+- The file name is ```camelCase```.
 
-## Learn More
+### Attributes Conventions
 
-To learn more about Next.js, take a look at the following resources:
+- The attribute is ```camelCase```.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Directory Aliases
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### ```tsconfig.json```
 
-## Deploy on Vercel
+- For TypeScript Aliases Validation.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## API
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- [React Sample API](https://github.com/cozyfex/react-sample-api)
