@@ -1,8 +1,9 @@
-import BoardWriteComponent from '@components/BoardWriteComponent';
-import ErrorFallbackComponent from '@components/errors/ErrorFallbackComponent';
-import WebLayout from '@layouts/web/WebLayout';
 import React, { useState } from 'react';
 import { ErrorBoundary } from 'react-error-boundary';
+
+import WebLayout from '@layouts/web/WebLayout';
+import BoardWriteComponent from '@components/BoardWriteComponent';
+import ErrorFallbackComponent from '@components/errors/ErrorFallbackComponent';
 
 
 const Write = () => {

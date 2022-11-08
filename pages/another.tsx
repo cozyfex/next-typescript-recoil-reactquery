@@ -1,18 +1,9 @@
-import BoardListComponent from '@components/BoardListComponent';
-import ErrorFallbackComponent from '@components/errors/ErrorFallbackComponent';
-import UserListComponent from '@components/UserListComponent';
-import WebLayout from '@layouts/web/WebLayout';
 import { useState } from 'react';
-import { ErrorBoundary } from 'react-error-boundary';
 import { useRecoilState } from 'recoil';
 
-import useAppQueries from '@hooks/queries/factories/useAppQueries';
-import useBoardHttp from '@hooks/queries/useBoardQuery';
-import useUserHttp, { userQuery } from '@hooks/queries/useUserQuery';
-import { BoardInterface } from '@interfaces/boardInterface';
-import { ListInterface } from '@interfaces/listInterface';
-import { UserInterface } from '@interfaces/userInterface';
+import WebLayout from '@layouts/web/WebLayout';
 import { countSelectorState, sampleState } from '@states/sampleState';
+
 
 const Another = () => {
   const [sample, setSample] = useRecoilState(sampleState);

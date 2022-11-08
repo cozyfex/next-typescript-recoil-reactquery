@@ -1,10 +1,9 @@
-import useBoardHttp from '@hooks/queries/useBoardQuery';
-import { ListInterface } from '@interfaces/listInterface';
-import WebLayout from '@layouts/web/WebLayout';
 import { useRouter } from 'next/router';
-import { useEffect, useState } from 'react';
 
 import { BoardInterface } from '@interfaces/boardInterface';
+import useBoardHttp from '@hooks/queries/useBoardQuery';
+import WebLayout from '@layouts/web/WebLayout';
+
 
 const BoardDetail = () => {
   const router = useRouter();

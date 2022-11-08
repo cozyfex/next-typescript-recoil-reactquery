@@ -1,5 +1,5 @@
-import { ErrorBoundary } from 'react-error-boundary';
 import { useRecoilState } from 'recoil';
+import { ErrorBoundary } from 'react-error-boundary';
 
 import ErrorFallbackComponent from '@components/errors/ErrorFallbackComponent';
 import UserListComponent from '@components/UserListComponent';

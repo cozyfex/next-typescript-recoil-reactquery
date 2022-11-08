@@ -1,4 +1,3 @@
-import { NextPage } from 'next';
 import { useRecoilState } from 'recoil';
 
 import WebLayout from '@layouts/web/WebLayout';
